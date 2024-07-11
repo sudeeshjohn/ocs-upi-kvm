@@ -93,7 +93,7 @@ fi
 
 rm -rf $WORKSPACE/venv
 
-python3.9 -m venv $WORKSPACE/venv
+python3.11 -m venv $WORKSPACE/venv
 
 . $WORKSPACE/venv/bin/activate		# activate named python venv
 
